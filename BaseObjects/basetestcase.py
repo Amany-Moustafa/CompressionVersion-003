@@ -5,7 +5,7 @@ from DataSource.readxml import read_xml
 
 
 class BaseTestCase(unittest.TestCase):
-
+    @classmethod
     def setUp(self):
         # create a new Firefox session
         self.driver = webdriver.Firefox()
@@ -26,6 +26,7 @@ class BaseTestCase(unittest.TestCase):
         self.driver.maximize_window()
     """
 
+    @classmethod
     def tearDown(self):
         # close the browser window
         self.driver.quit()
