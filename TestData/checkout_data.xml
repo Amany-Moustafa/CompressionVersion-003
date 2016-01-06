@@ -1,0 +1,23 @@
+<checkout>
+	<customer>
+		<BillingInformation>
+			<firstname>Rami</firstname>
+			<lastname>Alaa</lastname>
+			<company>EGYPT</company>
+			<streetaddress1>EGYPT1</streetaddress1>
+			<streetaddress2>EGYPT2</streetaddress2>
+			<city>CAIRO</city>
+			<state>Hawaii</state>
+			<postalcode>112233</postalcode>
+			<country>United States</country>
+			<telephone>01098227580</telephone>
+			<fax>2728018</fax>
+		</BillingInformation>
+		<PaymentInformation>
+			<creditCardType>Visa</creditCardType>
+			<CreditCardNumber>4300230139428777</CreditCardNumber>
+			<ExpirationDate>08 - August</ExpirationDate>
+			<ExpirationYear>2020</ExpirationYear>
+		</PaymentInformation>
+	</customer>
+</checkout>
